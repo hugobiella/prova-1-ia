@@ -27,6 +27,7 @@ Utilizamos as funções de pertinência e inferência para realizar o diagnósti
 A função de pertinência (Linhas 71 a 89 do código) foi implementada com o uso de 'Maps'(Linhas 1 a 39 do código) onde as chaves correspondem às strings:
 ("low", "low-medium", "medium", "medium-high" e "high"), esses valores ("0","0.25","0.5","0.75","1"), respectivamente, sãos os graus de pertinência
 que serão usados para o processo da inferência.
+
 OBS: os dados do usuãrio são coletados a partir da função cosnt answers: Answer ={} (Linhas 91 a 97 do código).
 
 # Função de Inferência
