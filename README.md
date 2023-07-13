@@ -3,14 +3,20 @@ Repositório com os códigos da prova de IA
 
 # Alunos
 Hugo de Abreu Biella
+
 Pedro Augusto Borges Assis
 
 # Tema
 Diagnóstico de procastinação utilizando lógica Fuzzy, com parâmetros definidos para:
+
 baixo(low = 0),
+
 baixo-médio(low-medium = 0.25),
+
 médio(medium=0.5),
+
 médio-alto(medium-high=0.75),
+
 alto(high=1);
 
 O sistema fuzzy é implementado no código apresentado para avaliar o nível de procrastinação usando cinco variáveis linguísticas:
