@@ -1,9 +1,9 @@
 const produtividadeSet = new Map();
-produtividadeSet.set("low", 0);
-produtividadeSet.set("low-medium", 0.25);
+produtividadeSet.set("low", 1);
+produtividadeSet.set("low-medium", 0.75);
 produtividadeSet.set("medium", 0.5);
-produtividadeSet.set("medium-high", 0.75);
-produtividadeSet.set("high", 1);
+produtividadeSet.set("medium-high", 0.25);
+produtividadeSet.set("high", 0);
 //Aqui definimos o nível de produtividade da pessoa de 0 a 1
 
 const usoDoCelularSet = new Map();
