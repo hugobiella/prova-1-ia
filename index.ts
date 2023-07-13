@@ -31,11 +31,11 @@ ansiedadeSet.set("high", 1);
 //Aqui definimos o nível de ansiedade da pessoa de 0 a 1
 
 const organizacaoSet = new Map();
-organizacaoSet.set("low", 0);
-organizacaoSet.set("low-medium", 0.25);
+organizacaoSet.set("low", 1);
+organizacaoSet.set("low-medium", 0.75);
 organizacaoSet.set("medium", 0.5);
-organizacaoSet.set("medium-high", 0.75);
-organizacaoSet.set("high", 1);
+organizacaoSet.set("medium-high", 0.25);
+organizacaoSet.set("high", 0);
 //Aqui definimos o nível de organização da pessoa de 0 a 1
 
 type Answer = {
